@@ -40,7 +40,7 @@ public class RequestWrapper extends HttpServletRequestWrapper {
 
             @Override
             public void setReadListener(ReadListener listener) {
-
+                throw new UnsupportedOperationException();
             }
 
             @Override

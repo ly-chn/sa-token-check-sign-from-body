@@ -3,8 +3,8 @@ GET http://localhost:8080/demo/create-demo
 
 ### json 请求示例
 POST http://localhost:8080/demo/json-body
-timestamp:1772501688016
-nonce:3b93446bec0647c4a314820f571af5bf
+timestamp:1772506493616
+nonce:36a736befd8d439589324248a08738ee
 sign:c9d798e9abd1a6924e4f49f514f3b074
 Content-Type: application/json
 
@@ -15,21 +15,21 @@ Content-Type: application/json
 
 ### json 请求示例（部分参数参与签名验证）
 POST http://localhost:8080/demo/json-body-some-params
-timestamp:1772501688016
-nonce:3b93446bec06q47c4a3w14820f571af5bf
+timestamp:1772506493616
+nonce:36a736befd8d439589324248a08738ee
 sign:c9d798e9abd1a6924e4f49f514f3b074
 Content-Type: application/json
 
 {
   "name": "nzxy",
   "age": 18,
-  "otherParam": "xwqqxx"
+  "otherParam": "xxx"
 }
 
 ### form 请求示例
 POST http://localhost:8080/demo/form-body
-timestamp:1772501688016
-nonce:3b93446bec0647c4a314820f571af5bf
+timestamp:1772506493616
+nonce:36a736befd8d439589324248a08738ee
 sign:c9d798e9abd1a6924e4f49f514f3b074
 Content-Type: application/x-www-form-urlencoded
 
@@ -37,7 +37,7 @@ name=nzxy&age=18
 
 ### query 请求示例
 POST http://localhost:8080/demo/form-body?name=nzxy&age=18
-timestamp:1772501688016
-nonce:3b93446bec0647c4a314820f571af5bf
+timestamp:1772506493616
+nonce:36a736befd8d439589324248a08738ee
 sign:c9d798e9abd1a6924e4f49f514f3b074
 Content-Type: application/x-www-form-urlencoded
