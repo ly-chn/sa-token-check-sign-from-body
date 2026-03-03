@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: sa-token-check-sign-from-body
+sa-token:
+  sign:
+    secret-key: 123456
